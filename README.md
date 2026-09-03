@@ -1,22 +1,12 @@
 
-# Snapshot of live project
+## Snapshot of live project
 <img width="941" height="467" alt="image" src="https://github.com/user-attachments/assets/053d0ea1-1d0b-457a-99c2-74d7f46f6bcf" />
 
 <img width="944" height="464" alt="image" src="https://github.com/user-attachments/assets/e03a5fa5-12b2-403d-acde-a0e0efa19b43" />
 
 
+##
 
-
-
-
-
-
-
-
-
-
-
-# ABC Pharmacy
 
 A .NET 8 Web API and React single-page application for managing pharmacy stock and medicine sales. Data is persisted in `PharmacyApp/Data/pharmacy-data.json`.
 

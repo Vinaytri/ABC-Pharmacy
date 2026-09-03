@@ -1,0 +1,75 @@
+{
+  "medicines": [
+    {
+      "id": "9e80d5ef-406a-4ba5-a23f-3cd6ce7e80bc",
+      "fullName": "Paracetamol 500 mg",
+      "notes": "Keep in a dry place.",
+      "expiryDate": "2027-04-15T00:00:00",
+      "quantity": 44,
+      "price": 2.50,
+      "brand": "ABC Health"
+    },
+    {
+      "id": "efa563f6-4780-4e09-ab94-89a60ef0f5df",
+      "fullName": "Vitamin C 1000 mg",
+      "notes": "Orange flavour tablets.",
+      "expiryDate": "2026-09-20T00:00:00",
+      "quantity": 18,
+      "price": 12.75,
+      "brand": "Wellness Labs"
+    },
+    {
+      "id": "ec8e8f2f-6cbf-4eae-8692-1513d731b74e",
+      "fullName": "Amoxicillin",
+      "notes": "Antibiotic",
+      "expiryDate": "2026-10-31T00:00:00",
+      "quantity": 10,
+      "price": 11.25,
+      "brand": "Novamox"
+    },
+    {
+      "id": "0c2ba5d2-f504-4415-bd2b-aa5777fac8fa",
+      "fullName": "Dolo 650",
+      "notes": "Fever and mild-to-moderate pain",
+      "expiryDate": "2026-11-02T00:00:00",
+      "quantity": 7,
+      "price": 6,
+      "brand": "Micro Labs Limited"
+    },
+    {
+      "id": "633ef52e-8bad-4b35-981f-928c35e05ae1",
+      "fullName": "Azithromycin",
+      "notes": "antibiotic that fights bacteria.",
+      "expiryDate": "2026-09-23T00:00:00",
+      "quantity": 15,
+      "price": 80,
+      "brand": "Alembic"
+    }
+  ],
+  "sales": [
+    {
+      "id": "201934c7-db38-467d-ab5e-53124fb7444c",
+      "medicineId": "9e80d5ef-406a-4ba5-a23f-3cd6ce7e80bc",
+      "medicineName": "Paracetamol 500 mg",
+      "quantity": 1,
+      "unitPrice": 2.50,
+      "soldAt": "2026-09-02T12:11:50.6083442Z"
+    },
+    {
+      "id": "9aba1186-729d-4295-8d11-a570c927dfb4",
+      "medicineId": "0c2ba5d2-f504-4415-bd2b-aa5777fac8fa",
+      "medicineName": "Dolo 650",
+      "quantity": 1,
+      "unitPrice": 6,
+      "soldAt": "2026-09-02T12:25:32.3172609Z"
+    },
+    {
+      "id": "bf854a52-5cee-481a-bc42-927708a34cb6",
+      "medicineId": "633ef52e-8bad-4b35-981f-928c35e05ae1",
+      "medicineName": "Azithromycin",
+      "quantity": 1,
+      "unitPrice": 80,
+      "soldAt": "2026-09-03T02:13:57.6868091Z"
+    }
+  ]
+}

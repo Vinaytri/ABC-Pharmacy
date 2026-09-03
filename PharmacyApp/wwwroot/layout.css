@@ -1,0 +1,46 @@
+/* Keeps catalogue activity together in the left workspace column. */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.left-column .sales {
+  margin-top: 0;
+}
+
+.compact-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 0 22px;
+}
+
+.compact-heading h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
+  letter-spacing: -0.8px;
+}
+
+.compact-heading .legend {
+  margin-left: auto;
+  width: fit-content;
+}
+
+@media (max-width: 640px) {
+  .compact-heading {
+    grid-template-columns: minmax(0, 1fr) max-content;
+    padding: 22px 0 18px;
+  }
+
+  .compact-heading h1 {
+    font-size: 27px;
+  }
+
+  .compact-heading .legend {
+    margin-top: 0;
+  }
+
+}
